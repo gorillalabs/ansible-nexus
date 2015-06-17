@@ -1,6 +1,6 @@
 ---
 
-timezone: Europe/Madrid
+timezone: Europe/Berlin
 
 # NTP servers
 ntp_server1: ntp0.ox.ac.uk
@@ -13,8 +13,8 @@ ntp_server7: ntp.ubuntu.com # fallback
 
 # NEXUS
 nexus:
-  version: 2.11.1
-  unpackaged_version: 2.11.1-01
+  version: 2.11.3
+  unpackaged_version: 2.11.3-01
   base_dir: /opt
   home: /opt/nexus
-  data_dir: /data
+  data_dir: /data/nexus

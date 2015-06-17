@@ -9,5 +9,5 @@
   sudo: yes
 
 - name: restart nexus
-  service: name=nexus state=restarted
+  service: name=nexus state=restarted enabled=yes sleep=10
   sudo: yes
